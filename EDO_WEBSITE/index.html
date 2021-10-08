@@ -1,0 +1,143 @@
+<!--
+    YND
+    YOUR NEXT DESTINATION
+    
+    Synopsis:
+    Simplistic website with just a couple of cards, containing hot toursist destinations and stuff
+
+-->
+
+<html>
+
+<head style="overflow: hidden">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="flow.css">
+    <script src="shitJS.js"></script>
+    <div class="HeaderBar">
+        <span class="HeaderTitle">YND</span>
+        <span class="HeaderTitlesmall">Your next destination.</span>
+        <span class="HeaderNavButtons">
+            <img class="home" src="resources/images/home.png">
+            <img class="contacts" src="resources/images/contacts.png">
+        </span>
+        <ul class="listMenu">
+            <li><a class="listMenuItem" href="">Home</a></li>
+            <li><a class="listMenuItem" href="">Contacts</a></li>
+        </ul>
+    </div>
+</head>
+
+<body onload="init()" style="overflow-x: hidden">
+    <div class="container_body">
+        <h2 style="text-align: center; margin-top:100px; margin-bottom:50px;">MOST POPULAR LOCATIONS:</h2>
+        <div class="container_cards">
+            <div class="card" onmouseover="mouseIn(3)" onmouseout="mouseOut(3)">
+                <a class="noHighlight" href="">
+                    <img class="cardImg" src="resources/images/cardBgAmsterdam.png">
+                    <h2 id="TextName3" class="cardName">AMSTERDAM</h2>
+                    <h4 id="TextDesc3" class="cardContent">Amsterdam dankt zijn naam aan de ligging bij een in de 13e
+                        eeuw aangelegde dam in de Amstel. De plaats kreeg kort na 1300 stadsrechten, werd in 1345 door
+                        het Mirakel van Amsterdam een pelgrimsoord en groeide in de Gouden Eeuw uit tot een van de
+                        belangrijkste haven- en handelssteden ter wereld. Een toestroom van buitenlanders uit vooral de
+                        Zuidelijke Nederlanden, Duitsland en de Scandinavische landen leidde vanaf het eind van de 16e
+                        eeuw tot stadsuitbreidingen, waaronder de laatste grachten van de fortificatie die nu als
+                        grachtengordel bekend is en in 2010 is toegevoegd aan de Werelderfgoedlijst van UNESCO. </h4>
+                </a>
+            </div>
+
+            <div class="card" onmouseover="mouseIn(1)" onmouseout="mouseOut(1)">
+                <a class="noHighlight" href="">
+                    <img class="cardImg" src="resources/images/cardBgParis.png">
+                    <h2 id="TextName1" class="cardName">PARIS</h2>
+                    <h4 id="TextDesc1" class="cardContent">Paris is a major railway, highway, and air-transport hub
+                        served by
+                        two international airports: Paris–Charles de Gaulle (the second-busiest airport in Europe) and
+                        Paris–Orly.[10][11] Opened in 1900, the city's subway system, the Paris Métro, serves 5.23
+                        million
+                        passengers daily;t is the second-busiest metro system in Europe after the Moscow Metro. Gare du
+                        Nord
+                        is the 24th-busiest railway station in the world, but the busiest located outside Japan, with
+                        262
+                        million passengers in 2015.[13] Paris is especially known for its museums and architectural
+                        landmarks: the Louvre remained the most-visited museum in the world with 2,677,504 visitors in
+                        2020,
+                        despite the long museum closings caused by the COVID-19 virus.</h4>
+                </a>
+            </div>
+
+            <div class="card" onmouseover="mouseIn(2)" onmouseout="mouseOut(2)">
+                <a class="noHighlight" href="">
+                    <img class="cardImg" src="resources/images/cardBgLondon.png">
+                    <h2 id="TextName2" class="cardName">LONDON</h2>
+                    <h4 id="TextDesc2" class="cardContent">London, as one of the world's global cities,[25] exerts
+                        strong influence on its arts, commerce, education, entertainment, fashion, finance, health care,
+                        media, tourism and communications.[26] Its GDP (€801.66 billion in 2017) makes it the biggest
+                        urban economy in Europe[27] and one of the major financial centres in the world. In 2019 it had
+                        the second highest number of ultra high-net-worth individuals in Europe after Paris[28] and the
+                        second-highest number of billionaires of any city in Europe after Moscow.[29] With Europe's
+                        largest concentration of higher education institutions,[30] it includes Imperial College London
+                        in natural and applied sciences, the London School of Economics in social sciences, and the
+                        comprehensive University College London.[31] In 2012, London became the first city to host three
+                        Summer Olympic Games.[32]</h4>
+                </a>
+            </div>
+        </div>
+        <div class="Zone1Container">
+            <div class="Zone1Content">
+                <h3>WHO ARE WE:</h3>
+                <div style="font-weight: normal; font-size:1.25rem; max-width:1200px;">We're a team of enthusiastic
+                    travelers, that were unhappy with the majority of websites that offer
+                    travel-related services.
+                    That's why we decided to start our own online travel agency, where we let you choose from a pallete
+                    of the most sought-after travel destinations, that are all a can't-miss.
+                    Our main goals are to offer you only the best destinations and acommodations, at the best possible
+                    price.
+                    <br>If you're happy with your trip, then we're happy with the job we've done!
+                </div> <br>
+                <h3>WHY TRAVEL WITH US:</h3>
+                <div style="font-weight: normal; font-size:1.25rem; max-width:1200px;">
+                    We've been in the bussines of tour organisation and bookings since 2012, which makes us widely
+                    experienced in this area.
+                    Our main goal is offering you the best experience, which is why alongside our booking service, we
+                    offer tour guides and plans for people of all paths of life - it doesn't matter if you're a young
+                    person who just wants to travel around the world and experience new cultures and sights,
+                    or you're a family that just wants a nice getaway from the busy day-to-day life you have, we assure
+                    you that we can assist you in finding whatever you would need.
+                </div> <br>
+            </div>
+        </div>
+        <h2 style="text-align: center">Still not convinced? Have a look at what some of our past clients had to say:</h2><br>
+            <div class="userTestimonials">
+                <div class="UserCard">
+                    <img class="userPfp" src="resources/images/user1.jpeg">
+                    <h3>Ali Mahmoud</h3>
+                    <div class="userTest">
+                        "During my last Spring break I knew I wanted to visit London, but didn't know which hotel to
+                        book,
+                        or which landmarks I was supposed to visid.
+                        I was lucky to stumble upon YND, because trough their website I was able to book a hotel at a
+                        great
+                        price AND read up on things I could do on my trip, according to my needs (I was 22 at the time
+                        and
+                        mostly wanted to visit the big landmarks, but also get a taste of the London night life. They
+                        gave
+                        me recommendations on which bars I could visit and which restaurants had the best user rating."
+                    </div>
+                </div>
+                <div class="UserCard">
+                    <img class="userPfp" src="resources/images/user2.jpg">
+                    <h3>Pasta girl</h3>
+                    <div class="userTest">
+                        "I am immortal.
+                        I pre-date humanity itself.<br>
+                        I am pasta and pasta is me.<br>
+                        I've spend the last 4000 thousand years scouring the Earth in search for the best pasta your weak kind has to offer,
+                        and it was only logical for me to visit Italy, but even immortal pasta-demons need a tour-guide, for which 'Your Next Destination' helped me a lot. I managed to book an amazing hotel room with the help of their website and I also read up on the best pasta-restaurants Milano has to offer. At the end of my trip I was extremely delighted with the pasta of the italians and also adored the service YND had to offer.
+                        <br> Best booking website I've used in atleast 3000 years!<br>9/10 would recommend, neeeds more pasta."
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
