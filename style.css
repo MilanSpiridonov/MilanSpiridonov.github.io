@@ -37,14 +37,15 @@ display: grid;
 grid-template-columns: 30% 30%;
 grid-column-gap: 200px;*/
 display: grid;
-      grid-template-columns: repeat(auto-fit, 350px);
+      grid-template-columns: repeat(auto-fit, 375px);
       grid-gap: 100px;
 justify-content: center;
 }
 .Zone1Container{
     margin-top:80px;
     margin-bottom: 80px;
-    width: 100%;
+    margin-left:-15px;
+    width: 105%;
     background-color: #ccd5ae;
     display: flex;
     justify-content: center;
