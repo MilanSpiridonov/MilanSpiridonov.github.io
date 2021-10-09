@@ -60,3 +60,16 @@ function mouseOut(i) {
         document.getElementById("TextDesc3").style.top = "410px";
     }
 }
+var position = $(window).scrollTop();
+  
+        $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            if (scroll > position) {
+                console.log('scrollDown');
+                $('.scrollBar').fadeIn();
+            } else {
+                console.log('scrollUp');
+                $('.scrollBar').fadeOut();
+            }
+            position = scroll;
+        });
