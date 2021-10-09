@@ -8,11 +8,19 @@
 -->
 
 <html>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-<head style="overflow: hidden">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head style="overflow: hidden;">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="flow.css">
     <script src="shitJS.js"></script>
+    <div class="scrollBar">
+        <div class="scrollBarItems">
+            <li><a class="scrollBarItem" href="">Home</a></li> <br>
+            <li><a class="scrollBarItem" href="">Contacts</a></li>
+        </div>
+    </div>
     <div class="HeaderBar">
         <span class="HeaderTitle">YND</span>
         <span class="HeaderTitlesmall">Your next destination.</span>
@@ -27,7 +35,7 @@
     </div>
 </head>
 
-<body onload="init()" style="overflow-x: hidden">
+<body onload="init()" style="overflow-x: hidden; width:100%; margin:0px;">
     <div class="container_body">
         <h2 style="text-align: center; margin-top:100px; margin-bottom:50px;">MOST POPULAR LOCATIONS:</h2>
         <div class="container_cards">
@@ -106,36 +114,54 @@
                 </div> <br>
             </div>
         </div>
-        <h2 style="text-align: center">Still not convinced? Have a look at what some of our past clients had to say:</h2><br>
-            <div class="userTestimonials">
-                <div class="UserCard">
-                    <img class="userPfp" src="resources/images/user1.jpeg">
-                    <h3>Ali Mahmoud</h3>
-                    <div class="userTest">
-                        "During my last Spring break I knew I wanted to visit London, but didn't know which hotel to
-                        book,
-                        or which landmarks I was supposed to visid.
-                        I was lucky to stumble upon YND, because trough their website I was able to book a hotel at a
-                        great
-                        price AND read up on things I could do on my trip, according to my needs (I was 22 at the time
-                        and
-                        mostly wanted to visit the big landmarks, but also get a taste of the London night life. They
-                        gave
-                        me recommendations on which bars I could visit and which restaurants had the best user rating."
-                    </div>
-                </div>
-                <div class="UserCard">
-                    <img class="userPfp" src="resources/images/user2.jpg">
-                    <h3>Pasta girl</h3>
-                    <div class="userTest">
-                        "I am immortal.
-                        I pre-date humanity itself.<br>
-                        I am pasta and pasta is me.<br>
-                        I've spend the last 4000 thousand years scouring the Earth in search for the best pasta your weak kind has to offer,
-                        and it was only logical for me to visit Italy, but even immortal pasta-demons need a tour-guide, for which 'Your Next Destination' helped me a lot. I managed to book an amazing hotel room with the help of their website and I also read up on the best pasta-restaurants Milano has to offer. At the end of my trip I was extremely delighted with the pasta of the italians and also adored the service YND had to offer.
-                        <br> Best booking website I've used in atleast 3000 years!<br>9/10 would recommend, neeeds more pasta."
+        <h2 style="text-align: center">Still not convinced? Have a look at what some of our past clients had to say:
+        </h2><br>
+        <div class="userTestimonials">
+            <div class="UserCard">
+                <img class="userPfp" src="resources/images/user1.jpeg">
+                <h3 class="userTest" style="font-weight: bold">Ali Mahmoud</h3>
+                <div class="userTest">
+                    "During my last Spring break I knew I wanted to visit London, but didn't know which hotel to
+                    book,
+                    or which landmarks I was supposed to visit.
+                    I was lucky to stumble upon YND, because trough their website I was able to book a hotel at a
+                    great
+                    price AND read up on things I could do on my trip, according to my needs (I was 22 at the time
+                    and
+                    mostly wanted to visit the big landmarks, but also get a taste of the London night life). They
+                    gave
+                    me recommendations on which bars I could visit and which restaurants had the best user rating."
                 </div>
             </div>
+            <div class="UserCard">
+                <img class="userPfp" src="resources/images/user2.jpg">
+                <h3 class="userTest" style="font-weight: bold">Pasta girl</h3>
+                <div class="userTest">
+                    "I am immortal.
+                    I pre-date humanity itself.<br>
+                    I am pasta and pasta is me.<br>
+                    I've spend the last 4000 thousand years scouring the Earth in search for the best pasta your weak
+                    kind has to offer,
+                    and it was only logical for me to visit Italy, but even immortal pasta-demons need a tour-guide, for
+                    which 'Your Next Destination' helped me a lot. I managed to book an amazing hotel room with the help
+                    of their website and I also read up on the best pasta-restaurants Milano has to offer. At the end of
+                    my trip I was extremely delighted with the pasta of the italians and also adored the service YND had
+                    to offer.
+                    <br> Best booking website I've used in atleast 3000 years!<br>9/10 would recommend, neeeds more
+                    pasta."
+                </div>
+            </div>
+        </div>
+        <div class="footerContainer">
+            <div class="footer">
+                <div class="footerLinks">
+                    Navigation:
+                    <br><a href="" class="ftrL">Home</a>
+                    <br><a href=""class="ftrL">Contacts</a>
+                    <br><a href="" class="ftrL">I'm feeling lucky</a>
+                </div>
+            </div>
+
         </div>
     </div>
 </body>

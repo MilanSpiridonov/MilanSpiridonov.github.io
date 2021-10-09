@@ -1,9 +1,9 @@
 .container_body{
-    width: 102%;
+    width: 100%;
     height: 1000px;
 }
 .card{
-    margin-left: 15px;
+    margin-left: 22px;
     width:325px;
     height:500px;
     border: 2px solid black;
@@ -44,9 +44,9 @@ justify-content: center;
 .Zone1Container{
     margin-top:80px;
     margin-bottom: 80px;
-    margin-left:-15px;
-    width: 105%;
-    background-color: #ccd5ae;
+    
+    width: 100%;
+    background-color: #ef9273;;
     display: flex;
     justify-content: center;
 }
@@ -60,16 +60,16 @@ grid-template-columns: repeat(auto-fit, 550px);
 grid-gap: 100px;
     width: 100%;
     justify-content: center;
-    margin-left: 40px;
     margin-bottom: 50px;
 }
 .UserCard{
-    width:500px;
+    width:100%;
     text-align: center;
 }
 .userPfp{
     margin-top:15px;
     border-radius: 50%;
+    
     width: 250px;
     height:250px;
     max-height: 250px;
@@ -79,7 +79,5 @@ grid-gap: 100px;
 .userTest{
     font-weight: normal; 
     font-size:1.15rem;
-    max-width:72%;
-    min-width: 100px;
-    margin-left:50px;
+    
 }
